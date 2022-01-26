@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    tools:context=".TP3_3a">
+
+    <ImageView
+        android:id="@+id/img3aImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="img_3a_nikolai"
+        app:srcCompat="@drawable/tp3_img1"
+        tools:srcCompat="@drawable/tp3_img1" />
+
+    <TextView
+        android:id="@+id/name3aTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nikolai Olekhnovitch" />
+
+    <TextView
+        android:id="@+id/cp3aTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OLEN88123456" />
+
+    <TextView
+        android:id="@+id/email3aTextView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nikolai.olekhnovitch@umontreal.ca" />
+
+    <TextView
+        android:id="@+id/insTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registeredString" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/grade3aTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gradeString"
+            tools:layout_conversion_absoluteHeight="36dp"
+            tools:layout_conversion_absoluteWidth="207dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="392dp" />
+
+        <EditText
+            android:id="@+id/gradeTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="80px"
+            android:inputType="number"
+            tools:layout_conversion_absoluteHeight="45dp"
+            tools:layout_conversion_absoluteWidth="204dp"
+            tools:layout_editor_absoluteX="207dp"
+            tools:layout_editor_absoluteY="378dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back3aButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="@string/backListStrintg" />
+</LinearLayout>

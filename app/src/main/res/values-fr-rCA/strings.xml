@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP3</string>
+    <string name="nameString">Nom</string>
+    <string name="pwString">Mot de passe</string>
+    <string name="submitString">Soumettre</string>
+    <string name="deniedString">Mauvais mot de passe, accès refusé</string>
+    <string name="backString">Retour</string>
+    <string name="registeredString">Étudiant du IFT1135</string>
+    <string name="notRegisteredString">Pas étudiant du IFT1135</string>
+    <string name="backListStrintg">Retour vers la liste</string>
+    <string name="gradeString">Entrez votre appréciation, de 0 à 3:</string>
+    <string name="badGradeString">Entrez une note entre 0 et 3</string>
+    <string name="finalGrade">"La note pour la présentation est: "</string>
+</resources>

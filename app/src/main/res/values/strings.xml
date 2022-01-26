@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TP3</string>
+    <string name="nameString">Name</string>
+    <string name="pwString">Password</string>
+    <string name="submitString">Submit</string>
+    <string name="deniedString">Wrong password, access denied</string>
+    <string name="backString">Go back</string>
+    <string name="registeredString">IFT1135 Student</string>
+    <string name="notRegisteredString">Not a IFT1135 student</string>
+    <string name="backListStrintg">Go back to list</string>
+    <string name="gradeString">Enter your appreciation, from 0 to 3:</string>
+    <string-array name="noms_array">
+        <item>Nikolai Olekhnovitch</item>
+        <item>Axl Rose</item>
+        <item>Tommy Lee</item>
+    </string-array>
+    <string name="badGradeString">Please enter a grade between 0 and 3</string>
+    <string name="finalGrade">"The grade for the presentation is: "</string>
+</resources>

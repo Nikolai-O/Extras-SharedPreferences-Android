@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TP3_3c">
+
+    <ImageView
+        android:id="@+id/img3cImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="img_3c_tommy_lee"
+        app:srcCompat="@drawable/tp3_img3" />
+
+    <TextView
+        android:id="@+id/name3cTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tommy Lee" />
+
+    <TextView
+        android:id="@+id/cp3cTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TLEE62100311" />
+
+    <TextView
+        android:id="@+id/email3cTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tomlee@motleycrue.com" />
+
+    <TextView
+        android:id="@+id/ins3cTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notRegisteredString" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/grade3cTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gradeString" />
+
+        <EditText
+            android:id="@+id/grade3cTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="80px"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back3cButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="back"
+        android:text="@string/backListStrintg" />
+</LinearLayout>
